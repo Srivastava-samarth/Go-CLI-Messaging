@@ -1,56 +1,33 @@
+
 # Go-CLI-Messaging
+
 ## Overview
 This project is a command-line interface (CLI) messaging application developed in GoLang. It allows users to send messages to specific users or broadcast messages to all users.
 
 ## Features
--> Send Message to Specific User: Users can send messages to a specific user by specifying the recipient's ID.
-
- ->Broadcast Message: Users can broadcast messages to all users.
-
- ->Read Messages: Users can read their messages.
-
- ->Add New User: Administrators can add new users to the system.
+Some features are \
+1.Send Message to Specific User: Users can send messages to a specific user by specifying the recipient's ID.\
+2.Broadcast Message: Users can broadcast messages to all users.\
+3.Read Messages: Users can read their messages.\
+4.Add New User: Administrators can add new users to the system.
 
  ## Usage
- Upon running the application, users will be prompted to enter their user ID.
+ Upon running the application, users will be prompted to enter their user ID.\
+Users can then choose from the following options:\
+1.Send message to a particular user\
+2.Send message to all users\
+3.Read messages\
+4.Add new user\
+5.Exit
 
-Users can then choose from the following options:
-
-Send message to a particular user
-
-Send message to all users
-
-Read messages
-
-Add new user
-
-Exit
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  git clone https://github.com/Srivastava-samarth/Go-CLI-Messaging
-```
-
-Navigate to the Project Directory
-
-```bash
-  cd Go-CLI-Messaging
-```
-
-Install the dependencies
-
-```bash
-  go mod tidy
-```
-
-Run the application
-
-```bash
-  go run main.go
-```
+## Dependencies
+1.bufio: For reading user input.\
+2.encoding/json: For encoding and decoding JSON data.\
+3.fmt: For printing formatted output.\
+4.net/http: For making HTTP requests.\
+5.os: For interacting with the operating system.\
+6.strings: For string manipulation.\
+7.time: For working with time-related functions.
 
 ## Screenshots
 
