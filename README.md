@@ -29,3 +29,4 @@ Exit
 ## Screenshots
 
 ![send message](/images/img1.png)
+1. When we wnat to send message to any particular user
