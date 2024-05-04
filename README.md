@@ -26,6 +26,32 @@ Add new user
 
 Exit
 
+## Deployment
+
+To deploy this project run
+
+```bash
+  git clone https://github.com/Srivastava-samarth/Go-CLI-Messaging
+```
+
+Navigate to the Project Directory
+
+```bash
+  cd Go-CLI-Messaging
+```
+
+Install the dependencies
+
+```bash
+  go mod tidy
+```
+
+Run the application
+
+```bash
+  go run main.go
+```
+
 ## Screenshots
 
 ![send message](/images/img1.png)
