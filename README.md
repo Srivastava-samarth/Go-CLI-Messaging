@@ -30,13 +30,18 @@ Exit
 
 ![send message](/images/img1.png)
 When we wnat to send message to any particular user
+
 ![send message](/images/img2.png)
 When we wnat to send message to all the users
+
 ![send message](/images/img3.png)
 When we wnat to read the messages of any particular user
+
 ![send message](/images/img4.png)
 When we wnat to add new user
+
 ![send message](/images/img5.png)
 When we wnat to exit the command line interface
+
 ![send message](/images/img6.png)
 When we send a blank message it generate a random message from api
